@@ -11,6 +11,7 @@ public class Command {
         System.out.println("3.show all students massage");
         System.out.println("9.End");
         System.out.println("what do you want to do?");
+        Scanner sc = new Scanner(System.in);
     }
 
     public void max() {
