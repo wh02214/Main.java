@@ -31,7 +31,9 @@ public class Command {
     }
 
     public void delete() {
-
+        Scanner sc = new Scanner(System.in);
+        int re = sc.nextInt();
+        list.remove(re-1);
     }
 
     public void show() {

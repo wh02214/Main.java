@@ -36,6 +36,7 @@ public class Main extends Thread {
                 case 9:
                     System.exit(1);
             }
+            System.out.println("wait...");
             try {
                 sleep(3000);
             } catch (InterruptedException e) {
