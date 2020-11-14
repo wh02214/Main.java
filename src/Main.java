@@ -9,6 +9,7 @@ public class Main extends Thread {
         Scanner sc4 = new Scanner(System.in);
         Scanner sc5 = new Scanner(System.in);
         Scanner sc6 = new Scanner(System.in);
+        Scanner sc7 = new Scanner(System.in);
         for (int i = 0; ; i++) {
             command.introduce();
             int op = sc5.nextInt();
@@ -33,6 +34,11 @@ public class Main extends Thread {
                 case 3:
                     command.show();
                     break;
+//                case 4: {
+//                    int a = sc7.nextInt();
+//                    command.find(a);
+//                    break;
+//                }
                 case 9:
                     System.exit(1);
             }
